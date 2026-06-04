@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Aluno</h1>
+</header>       
+        <form method="post" action="cadastro_aluno">
+            
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" size="50">
+<br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" size="50">
+<br><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" id="senha" name="senha" size="50">
+<br><br>          
+            <label for="confirmacao">Confirmar Senha:</label><br>
+            <input type="password" id="confirmacao" name="confirmacao" size="50">
+<br><br>
+            <label for="genero"></label>Gênero:</label><br>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br>
+            <input type="radio" id="feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label><br>
+<br><br>
+            <label for="termos"></label>Termos de Uso:</label><br>
+            <input type="checkbox" id="termos" name="termos">
+            <label for="termos">Eu concordo com os termos de uso</label><br>
+<br><br>
+            <input type="submit" id="enviar" name="enviar" value="Enviar">
+        <input type="submit" id="Resetar" name="Resetar" value="Resetar">
+        </form>
+</body> 
+</html>
