@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Inscrições para Robótica</h1>
+    </header>
+    <form method="post" action="cadastro_inscricao_robotica">
+            
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" size="50">
+<br><br>
+            <label for="email">Email Institucional:</label><br> 
+            <input type="email" id="email" name="email" size="50">
+<br><br>
+            <label for="Curso">Curso:</label><br>
+            <input type="text" id="Curso" name="Curso" size="50">
+<br><br>
+            <label for="serie">Série:</label><br>
+            <input type="text" id="serie" name="serie" size="50">
+<br><br>
+            <label for="Modalidade">Modalidade:</label><br>
+            <input type="radio" id="Modalidade" name="Modalidade" value="Olimpíada">
+            <label for="Modalidade">Olimpíada</label>
+            <input type="radio" id="Modalidade" name="Modalidade" value="Projeto">
+            <label for="Modalidade">Projeto</label>
+<br><br>
+            <label for="Equipe">Nome da Equipe:</label><br>
+            <input type="text" id="Equipe" name="Equipe" size="50">
+<br><br>
+            <label for="Integrantes">Número de Integrantes:</label><br>
+            <input type="number" id="Integrantes" name="Integrantes" min="1" max="10">
+<br><br>
+            <label for="Integrantes">Integrantes:</label><br>
+            <textarea id="Integrantes" name="Integrantes" rows="4" cols="50"></textarea>
+<br><br>
+            <label for="Equipamento">Necessidade de Equipamento:</label><br>
+            <input type="radio" id="Equipamento" name="Equipamento" value=Sim>
+            <label for="Equipamento">Sim</label>
+            <input type="radio" id="Equipamento" name="Equipamento" value=Não>
+            <label for="Equipamento">Não</label>
+<br><br>
+            <label for="Upload">Upload do Projeto:</label><br>
+            <input type="file" name="Upload" id="Upload">
+<br><br>
+            <label for="Regulamento">Termos de Regulamento:</label><br>
+            <input type="checkbox" id="Regulamento" name="Regulamento">
+            <label for="Regulamento">Eu concordo com os termos do regulamento</label><br>
+<br><br>
+            <label for="Envio">Enviar:</label><br>
+            <input type="submit" id="Envio" name="Envio" value="Enviar">
+    </form>
+</body>
+</html>
