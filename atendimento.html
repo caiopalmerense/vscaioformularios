@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Atendimento</h1>
+    </header>
+    <form method="post" action="cadastro_atendimento">
+            
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" size="50">
+<br><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" size="50">
+<br><br>
+            <label for="telefone">Telefone:</label><br>
+            <input type="text" id="telefone" name="telefone" size="50">
+<br><br>
+            <label for="atendimento">Atendimento:</label><br>
+            <select id="atendimento" name="atendimento">
+                <option value="duvida">Dúvida</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="sugestao">Sugestão</option>
+            </select>
+<br><br>
+            <label for="Prioridade">Prioridade:</label><br>
+            <input type="radio" id="baixa" name="Prioridade" value="baixa">
+            <label for="baixa">Baixa</label><br>
+            <input type="radio" id="media" name="Prioridade" value="media">
+            <label for="media">Média</label><br>
+            <input type="radio" id="alta" name="Prioridade" value="alta">
+            <label for="alta">Alta</label>
+<br><br>
+            <label for="detalha">Descrição:</label><br>
+            <textarea id="detalha" name="detalha" rows="4" cols="50"></textarea>
+<br><br>
+            <label for="anexo">Anexo de Arquivo:</label><br>
+            <input type="file" id="anexo" name="anexo">
+<br><br>
+            <label for="Contatos">Autorizar Contatos:</label><br>
+            <input type="checkbox" id="Contatos" name="Contatos" value="autorizar">
+            <label for="Contatos">Sim</label>
+            <input type="checkbox" id="Contatos" name="Contatos" value="nao_autorizar">
+            <label for="Contatos">Não</label>
+<br><br>
+            <input type="submit" id="enviar" name="enviar" value="Enviar">
+        </form>
+    </body>
+</html>
