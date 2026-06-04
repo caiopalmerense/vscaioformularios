@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    header>
+        <h1>Inscrições</h1>
+    </header>
+        <h2>Dados Pessoais</h2>
+    <form method="post" action="cadastro_inscricao">
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" size="50">
+<br><br>
+        <label for="CPF">CPF:</label><br>
+        <input type="text" id="CPF" name="CPF" size="50">
+<br><br>
+        <label for="Data de Nascimento">Data de Nascimento:</label><br>
+        <input type="date" id="Data de Nascimento" name="Data de Nascimento">
+<br><br>
+        <h2>Endereço</h2>
+        <label for="Rua">Rua:</label><br>
+        <input type="text" id="Rua" name="Rua" size="50">
+<br><br>
+        <label for="Número">Número:</label><br>
+        <input type="text" id="Número" name="Número" size="50">
+<br><br>
+        <label for="Cidade">Cidade:</label><br>
+        <input type="text" id="Cidade" name="Cidade" size="50">
+<br><br>
+        <label for="Estado">Estado:</label><br>
+        <input type="text" id="Estado" name="Estado" size="50">
+<br><br>
+        <h2>Curso</h2>
+        <label for="Curso">Curso Desejado:</label><br>
+        <select id="Curso" name="Curso">
+            <option value="informatica">Informática</option>
+            <option value="administracao">Administração</option>
+            <option value="cooperatvismo">Cooperativismo</option>
+            <option value="agropecuaria">Agropecuária</option>
+        </select>
+<br><br>
+        <label for="Turno">Turno:</label><br>
+        <input type="radio" id="manha" name="Turno" value="manha">
+        <label for="manha">Manhã</label><br>
+        <input type="radio" id="tarde" name="Turno" value="tarde">
+        <label for="tarde">Tarde</label><br>
+        <input type="radio" id="noite" name="Turno" value="noite">
+        <label for="noite">Noite</label>
+<br><br>
+        <label for="Experiencia">Ja possui experiência:</label><br>
+        <input type="radio" id="Experiencia" name="Experiencia" value="sim">
+        <label for="Experiencia">Sim</label><br>
+        <input type="radio" id="Experiencia" name="Experiencia" value="nao">
+        <label for="Experiencia">Não</label>
+<br><br>
+        <label for="interesse">Áreas de Interesse:</label><br>
+        <input type="checkbox" id="interesse" name="interesse" value="informatica">
+        <label for="interesse">Informática</label><br>
+        <input type="checkbox" id="interesse" name="interesse" value="administracao">
+        <label for="interesse">Administração</label><br>
+        <input type="checkbox" id="interesse" name="interesse" value="cooperatvismo">
+        <label for="interesse">Cooperativismo</label><br>
+        <input type="checkbox" id="interesse" name="interesse" value="agropecuaria">
+        <label for="interesse">Agropecuária</label>
+<br><br>
+        <label for="Documento">Upload de Documentos:</label><br>
+        <input type="file" id="RG" name="RG">
+<br><br>
+        <label for="Observações">Campo de Observações:</label><br>
+        <textarea id="Observações" name="Observações" rows="4" cols="50"></textarea>
+<br><br>
+        <label for="Enviar">Envio</label><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
